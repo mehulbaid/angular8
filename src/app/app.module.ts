@@ -1,18 +1,18 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
-import { NbThemeModule } from '@nebular/theme';
 import { AppComponent } from './app.component';
+import { NbThemeModule } from '@nebular/theme';
 import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
-  declarations: [ AppComponent ],
+  declarations: [ ],
   imports: [
     BrowserModule,
     FormsModule,
     NbThemeModule.forRoot(),
     AppRoutingModule
   ],
-  bootstrap:    [ AppComponent ]
+  bootstrap: [ AppComponent ]
 })
 export class AppModule { }
